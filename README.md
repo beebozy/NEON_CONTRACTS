@@ -27,8 +27,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/memelaunchpad.git
-cd memelaunchpad
+git clone https://github.com/beebozy/NEON_CONTRACTS
 ```
 
 ### 2. Install Dependencies
@@ -76,7 +75,7 @@ node wrap-sol.js
 We use an **exponential bonding curve**:
 
 * Early token buyers pay significantly less
-* Price increases as more tokens are bought (e.g., `price = base * e^(supply / factor)`)
+* Price increases as more tokens are bought ()`)
 * Encourages early adoption and discourages whale dumps
 
 ---
